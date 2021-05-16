@@ -1,0 +1,221 @@
+{
+  "needs": [
+    {
+      "need": "p",
+      "display": "P"
+    },
+    {
+      "need": "a",
+      "display": "A"
+    },
+    {
+      "need": "b",
+      "display": "B"
+    },
+    {
+      "need": "c",
+      "display": "C"
+    },
+    {
+      "need": "e",
+      "display": "E"
+    },
+    {
+      "need": "ca",
+      "display": "Ca"
+    },
+    {
+      "need": "folate",
+      "display": "葉酸鐵"
+    },
+    {
+      "need": "dx",
+      "display": "DX"
+    },
+    {
+      "need": "enzyme",
+      "display": "消化酵素"
+    },
+    {
+      "need": "probiotics",
+      "display": "益生菌"
+    },
+    {
+      "need": "fishOil",
+      "display": "魚油"
+    },
+    {
+      "need": "lecithin",
+      "display": "卵磷脂"
+    },
+    {
+      "need": "fiber",
+      "display": "纖維"
+    },
+    {
+      "need": "greenTea",
+      "display": "綠茶素"
+    },
+    {
+      "need": "garlic",
+      "display": "大蒜"
+    },
+    {
+      "need": "glucosamine",
+      "display": "葡萄糖胺"
+    },
+    {
+      "need": "bilberry",
+      "display": "晶明錠"
+    },
+    {
+      "need": "q10",
+      "display": "Q10"
+    },
+    {
+      "need": "echinacea",
+      "display": "紫錐花"
+    },
+    {
+      "need": "mPlus",
+      "display": "管花肉從蓉"
+    },
+    {
+      "need": "proleber",
+      "display": "好甘萃"
+    },
+    {
+      "need": "gla",
+      "display": "月見草"
+    },
+    {
+      "need": "oil",
+      "display": "O"
+    },
+    {
+      "need": "water",
+      "display": "W"
+    },
+    {
+      "need": "sleep",
+      "display": "Z"
+    }
+  ],
+  "needList": {
+    "p": "P",
+    "a": "A",
+    "b": "B",
+    "c": "C",
+    "e": "E",
+    "ca": "Ca",
+    "folate": "葉酸鐵",
+    "dx": "DX",
+    "enzyme": "消化酵素",
+    "probiotics": "益生菌",
+    "fishOil": "魚油",
+    "lecithin": "卵磷脂",
+    "fiber": "纖維",
+    "greenTea": "綠茶素",
+    "garlic": "大蒜",
+    "glucosamine": "葡萄糖胺",
+    "bilberry": "晶明錠",
+    "q10": "Q10",
+    "echinacea": "紫錐花",
+    "mPlus": "管花肉從蓉",
+    "proleber": "好甘萃",
+    "gla": "月見草",
+    "oil": "油脂",
+    "water": "水",
+    "sleep": "睡眠"
+  },
+  "symptons": [
+    { "sympton": "eyeStrain", "display": "眼睛疲勞乾澀", "lackElements": ["p", "a", "b", "e", "water", "fishOil", "bilberry"] },
+    { "sympton": "acidReflux", "display": "胃酸逆流", "lackElements": ["p", "b", "ca", "enzyme", "probiotics"] },
+    { "sympton": "deyEyes", "display": "乾眼症、白內障", "lackElements": ["p", "dx", "a", "b", "c", "ca", "e", "bilberry"] },
+    { "sympton": "yawn", "display": "易打呵欠", "lackElements": ["p", "dx", "b", "c", "folate", "water", "sleep"] },
+    { "sympton": "cold", "display": "易感冒、感染", "lackElements": ["p", "dx", "a", "b", "c", "e", "enzyme", "echinacea", "probiotics"] },
+    { "sympton": "stayUp", "display": "壓力熬夜", "lackElements": ["p", "dx", "b", "c", "water", "sleep"] },
+    { "sympton": "varicoseVeins", "display": "靜脈曲張", "lackElements": ["p", "c", "e", "ca", "water", "sleep"] },
+    { "sympton": "infertility", "display": "不易受孕", "lackElements": ["p", "dx", "a", "e", "lecithin", "gla", "oil", "water"] },
+    { "sympton": "diarrhea", "display": "易腹瀉", "lackElements": ["p", "a", "lecithin", "fiber", "probiotics"] },
+    { "sympton": "freqUnriation", "display": "頻尿、夜尿", "lackElements": ["p", "b", "c", "ca", "lecithin", "water"] },
+    { "sympton": "cramp", "display": "易抽筋", "lackElements": ["p", "b", "ca", "water"] },
+    { "sympton": "menopause", "display": "更年期", "lackElements": ["p", "dx", "b", "ca", "gla", "fishOil", "e", "oil"] },
+    { "sympton": "acene", "display": "青春痘、粉刺", "lackElements": ["p", "a", "b", "c", "e", "lecithin", "water", "sleep"] },
+    {
+      "sympton": "heartPalpitation",
+      "display": "心悸、胸悶",
+      "lackElements": ["p", "dx", "b", "e", "ca", "folate", "q10"]
+    },
+    { "sympton": "pregnantVomit", "display": "害喜", "lackElements": ["p", "b", "ca", "lecithin"] },
+    { "sympton": "easilyTired", "display": "易疲累", "lackElements": ["p", "dx", "b", "enzyme", "lecithin", "water", "sleep"] },
+    { "sympton": "carSick", "display": "暈車、暈機", "lackElements": ["p", "b"] },
+    { "sympton": "overWeight", "display": "過重", "lackElements": ["p", "dx", "a", "b", "c", "fiber", "lecithin"] },
+    { "sympton": "prostate", "display": "攝護腺問題", "lackElements": ["p", "dx", "a", "c", "garlic", "water"] },
+    { "sympton": "pregnant", "display": "懷孕", "lackElements": ["p", "dx", "e", "ca", "folate", "fishOil", "lecithin"] },
+    { "sympton": "jointPain", "display": "關節痠痛", "lackElements": ["p", "b", "c", "ca", "fishOil", "glucosamine", "oil"] },
+    { "sympton": "headache", "display": "偏頭痛", "lackElements": ["p", "b", "c", "ca", "lecithin"] },
+    { "sympton": "osteoporosis", "display": "骨質疏鬆", "lackElements": ["p", "c", "ca", "proleber"] },
+    { "sympton": "constipation", "display": "便祕、痔瘡", "lackElements": ["p", "ca", "lecithin", "fiber", "oil", "water"] },
+    { "sympton": "dryMouth", "display": "口乾舌燥", "lackElements": ["a", "b", "c", "e", "ca", "water"] },
+    { "sympton": "leucorrhea", "display": "白帶、搔癢", "lackElements": ["p", "a", "b", "c", "e", "probiotics"] },
+    { "sympton": "badBreath", "display": "口氣重", "lackElements": ["p", "a", "b", "ca", "enzyme", "probiotics"] },
+    {
+      "sympton": "periodPain",
+      "display": "經期不順、疼痛",
+      "lackElements": ["p", "b","c", "ca", "gla", "fishOil"]
+    },
+    { "sympton": "heavyTaste", "display": "重口味", "lackElements": ["p", "a", "b", "ca", "c", "proleber"] },
+    { "sympton": "depression", "display": "憂鬱", "lackElements": ["p", "dx", "a", "b", "c", "ca", "lecithin", "folate"] },
+    { "sympton": "gumBlead", "display": "牙齦出血", "lackElements": ["p", "c", "ca", "proleber"] },
+    { "sympton": "fibroids", "display": "肌瘤、囊腫", "lackElements": ["p", "dx", "a", "c", "e", "ca", "water"] },
+    { "sympton": "anemia", "display": "貧血", "lackElements": ["p", "b", "c", "e", "folate", "water", "sleep"] },
+    { "sympton": "sleepDisorder", "display": "睡眠障礙", "lackElements": ["p", "dx", "b", "ca", "probiotics"] },
+    { "sympton": "burp", "display": "時常打嗝", "lackElements": ["p", "b", "ca", "oil", "enzyme"] },
+    { "sympton": "gout", "display": "痛風", "lackElements": ["p", "dx", "a", "b", "ca", "c", "glucosamine", "fishOil"] },
+    { "sympton": "allergicNose", "display": "過敏性鼻炎", "lackElements": ["p", "a", "b", "c", "e", "fiber", "probiotics", "oil"] },
+    { "sympton": "dandruff", "display": "頭皮屑", "lackElements": ["a", "b", "e", "lecithin", "oil", "water", "sleep"] },
+    { "sympton": "tinnitus", "display": "耳鳴", "lackElements": ["p"] },
+    { "sympton": "badAppetite", "display": "胃口不好", "lackElements": ["p", "b", "lecithin", "enzyme"] },
+    { "sympton": "memoryDecline", "display": "記憶力衰退", "lackElements": ["p", "b", "fishOil", "lecithin", "mPlus"] },
+    { "sympton": "hepatitis", "display": "肝炎", "lackElements": ["p", "dx", "a", "b", "c", "e", "lecithin", "sleep"] },
+    { "sympton": "darkSpot", "display": "黑斑", "lackElements": ["p", "c", "e", "lecithin", "water"] },
+    { "sympton": "edema", "display": "水腫", "lackElements": ["p", "dx", "b", "c", "proleber"] },
+    { "sympton": "deformedNail", "display": "指甲變形", "lackElements": ["p", "dx", "ca", "proleber"] },
+    { "sympton": "greyNail", "display": "灰指甲", "lackElements": ["p", "dx", "b", "garlic", "fishOil", "enzyme"] },
+    { "sympton": "handEczema", "display": "富貴手", "lackElements": ["p", "dx", "a", "b", "oil", "water"] },
+    { "sympton": "coldHand", "display": "手腳冰冷", "lackElements": ["p", "e", "fishOil", "lecithin", "oil", "folate"] },
+    {
+      "sympton": "hairLoss",
+      "display": "易掉髮、頭髮易斷裂",
+      "lackElements": ["p", "dx", "a", "b", "e", "lecithin", "mPlus"]
+    },
+    {
+      "sympton": "eczema",
+      "display": "濕疹、異位性皮膚炎",
+      "lackElements": ["p", "a", "b", "c", "e", "fishOil", "lecithin", "probiotics", "oil"]
+    },
+    { "sympton": "dysimmunity", "display": "免疫異常", "lackElements": ["p", "dx", "a", "b", "c", "ca", "probiotics", "water", "sleep"] },
+    { "sympton": "roughSkin", "display": "皮膚粗糙、過敏", "lackElements": ["p", "a", "b", "c", "e", "fishOil", "proleber", "probiotics", "oil"] },
+    { "sympton": "irritable", "display": "易怒、不耐煩", "lackElements": ["p", "b", "ca", "sleep"] },
+    {
+      "sympton": "oddBloodPressure",
+      "display": "血壓異常",
+      "lackElements": ["p", "dx", "b", "c", "ca", "fishOil", "fiber", "lecithin", "water", "sleep"]
+    },
+    { "sympton": "oddBloodSugar", "display": "血糖異常", "lackElements": ["p", "dx", "b", "c", "ca", "fishOil", "fiber", "lecithin", "water", "sleep"] },
+    { "sympton": "fatLiver", "display": "脂肪肝", "lackElements": ["p", "dx", "b", "c", "e", "garlic", "lecithin", "water", "sleep"] },
+    {
+      "sympton": "hyperlipidemia",
+      "display": "膽固醇異常",
+      "lackElements": ["p", "dx", "fishOil", "lecithin", "garlic", "fiber", "greenTea", "water", "sleep"]
+    },
+    { "sympton": "dyslipidemia", "display": "血脂異常", "lackElements": ["p", "dx", "fishOil", "lecithin", "garlic", "fiber", "greenTea", "water", "sleep"] },
+    {
+      "sympton": "badDigestion",
+      "display": "消化不良、脹氣",
+      "lackElements": ["p", "dx", "b", "enzyme", "probiotics"]
+    },
+    { "sympton": "oftenMedicine", "display": "時常服藥", "lackElements": ["p", "b", "c", "enzyme", "probiotics", "proleber"] }
+  ]
+}

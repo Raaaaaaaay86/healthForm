@@ -1,0 +1,52 @@
+@import './var.scss';
+
+.life {
+  .el-form-item__label {
+    float: none !important;
+  }
+}
+
+.sheet {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+  background-color: $white;
+  padding: 1rem;
+  margin-bottom: 0;
+}
+
+.header {
+  border-top: 0.4rem solid $primary;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  &__intro {
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+
+  &__caution {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+.text {
+  &--center {
+    text-align: center;
+  }
+}
+
+.lineHeight {
+  &--15 {
+    line-height: 1.5;
+  }
+}

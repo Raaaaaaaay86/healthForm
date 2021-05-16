@@ -13,7 +13,7 @@
     <ul class="result__info__list">
       <li>姓名：{{ filledForm.name }}</li>
       <li>性別：{{ filledForm.gender }}</li>
-      <li>生日：{{ filledForm.phone }}</li>
+      <li>手機號碼：{{ filledForm.phone }}</li>
       <li>生日：{{ formatedBirthday }}</li>
       <li>身高：{{ filledForm.height + 'cm' }}</li>
       <li>體重：{{ filledForm.weight + 'kg' }}</li>
